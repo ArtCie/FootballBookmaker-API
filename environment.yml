@@ -1,0 +1,15 @@
+name: football-bookmacher-api
+dependencies:
+  - python>=3.6
+  - flask
+  - yaml
+  - requests
+  - boto3
+  - pip
+  - pip:
+      - awsebcli # AWS CLI
+      - psycopg2
+      - bcrypt
+      - flask-cors
+      - tenacity
+      - pyyaml
